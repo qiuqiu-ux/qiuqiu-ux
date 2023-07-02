@@ -15,8 +15,8 @@ jsproxy_config({
     'demo-hk': {
       label: '演示服务-香港节点',
       lines: {
-        // 主机:权重
-        '1.riqiuqiu.workers.dev': 1,
+        'node-aliyun-hk-1.etherdream.com:8443': 1,
+        'node-aliyun-hk-2.etherdream.com:8443': 2,
       }
     },
     'demo-sg': {
@@ -45,6 +45,7 @@ jsproxy_config({
         //'b.hehe.workers.dev': 1,
         //'b.lulu.workers.dev': 1,
         //'b.jsproxy.workers.dev': 1,
+	'1.riqiuqiu.workers.dev': 1,
       }
     }
   },
